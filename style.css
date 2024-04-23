@@ -8,17 +8,24 @@ body {
 .card {
   margin-top: 18vh;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 16px !important;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 22px !important;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 .img-fluid {
   border-radius: 7px;
 }
 .card-heading {
-  font-weight: 700;
+  font-weight: 700 !important;
+  margin-top: 12px;
+  padding: 0px 12px 0px 12px !important;
   text-align: center;
 }
 .card-paragraph {
   text-align: center;
-  font-size: 19px;
+  font-size: 15px;
+  margin: 0 0 12px 0;
+  padding: 0px 12px 0px 12px !important;
+  font-weight: 400 !important;
+  color: hsl(220, 15%, 55%);
 }
