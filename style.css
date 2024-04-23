@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif !important;
+  background-color: #d5e1ef !important;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin-top: 18vh;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 16px !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.img-fluid {
+  border-radius: 7px;
+}
+.card-heading {
+  font-weight: 700;
+  text-align: center;
+}
+.card-paragraph {
+  text-align: center;
+  font-size: 19px;
+}
